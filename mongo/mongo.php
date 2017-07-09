@@ -1198,7 +1198,7 @@ class MongoCollection {
 	 * @param array|stdClass $query
 	 * @return int Returns the number of documents matching the query.
 	 */
-    public function count($query = array()) {}
+    public function count(array $query = array(), array $options = array()) {}
 
     /**
 	 * Saves an object to this collection
